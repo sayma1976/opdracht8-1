@@ -1,0 +1,64 @@
+body{
+    color:black;
+    background-color:cornsilk;
+font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+body
+.black-border {
+    border: 2px solid plum;
+}
+#list {
+    background-color: rosybrown;
+    text-align: center;
+}
+ul {
+    position: relative;
+    left: 550px;
+    width: 200px;
+    height: 120px;
+}
+h1{color:blueviolet}
+h1, h2, p {
+    text-align:center ;
+}
+figure{
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+ nav, footer{
+    text-align: end;
+}
+a { 
+    text-align: end;
+}
+
+
+@media (min-width: 1024px) {
+    body{
+ background-color:lemonchiffon;}
+    h1{
+        color:#9b2a50 ;
+    
+ }
+ h2{
+     color:#9b2a50 ;
+ }
+ main{
+    color:rebeccapurple;
+    font-size: 22px;
+    line-height: 2.5em;}
+    #list {
+        background-color: lightsteelblue ;
+        text-align: center;
+    }
+    ul{ 
+  position:relative;
+    left: 550px;
+    width: 200px;
+    height: 220px;
+}
+}
+

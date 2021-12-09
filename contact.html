@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>" contact"</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+    <h1>Hier kunt u uw lievelingste recepten opsturen.</h1>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label> Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label> Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label> Telefoonnummer: <input type="tel" name="Telefoonnummer" /></label>
+        </p>
+        <p>
+            <label> Leeftijd:<input type="number" name="Leeftijd" /></label>
+        </p>
+        <p>
+            <label> Geboortedatum: <input type="date" name="Geboortedatum" /></label>
+        </p>
+        <p>
+            <label> Gender</label><br>
+            <input type="radio" id="man" name="gender" value="man">
+              <label for="man">man</label><br>
+              <input type="radio" id="vrouw" name="gender" value="vrouw">
+              <label for="vrouw">vrouw</label><br>
+        </p>
+        <p>
+            <label> Favoriete keuken: <input type="checkbox" id="franse" name="franse" value="franse">
+                <label for="franse">Franse</label>
+                <input type="checkbox" id="italiaanse" name="italiaanse" value="italiaanse">
+                <label for="italiaanse"> Italiaanse</label>
+                <input type="checkbox" id="spaanse" name="spaanse" value="spaanse">
+                <label for="spaanse"> Spaanse</label>
+                <input type="checkbox""id=" asiatische" name="asiatische" value="asiatische">
+                <label for="asiatische">Asiatische</label>
+            </label>
+        </p>
+        <p>
+            <label> Favoriete kleur:<input type="color" name="kleur" /></label>
+        </p>
+        <p><label>Biografie</label><textarea></textarea></p>
+        <p><label for="myfile">Upload jouw recepten file:</label>
+            <input type="file" id="recepten" name="recepten">
+        </p>
+        <p><label for="homepage">Jouw recepten website</label>
+            <input type="url" id="receptenpage" name="receptenpage">
+        </p>
+
+        <p><button type="reset">Reset</button>
+        <p>
+            <button type="submit">Send</button><br>
+            <a href="/Index.html">Terug</a>
+        </p>
+    </form>
+
+</body>
+
+</html>
